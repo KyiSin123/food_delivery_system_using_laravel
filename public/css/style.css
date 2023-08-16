@@ -1,0 +1,259 @@
+.create-postsale a {
+    color: #fa5772;
+}
+
+.nav-icon {
+    color: #fa5772;
+}
+
+.nav-icon:hover {
+    color: #808080;
+}
+
+.nav-profile:hover {
+    color: #808080;
+}
+
+.dropdown-item:hover {
+    color: #fa5772;
+}
+
+.banner {
+    background-image: url("/img/hero-home-mm.webp");
+    background-size: cover;
+}
+
+.banner h1 {
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 1.4;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    padding-left: 59px;
+    color: #fff;
+}
+
+.logo {
+    font-size: 30px;
+    padding: 20px 0;
+    color: #fa5772;
+}
+
+.menu {
+    display: none;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    transition: ease;
+}
+
+.menu > div {
+    border-bottom: 1px dotted #dfdfdf;
+    padding: 10px;
+}
+
+.large-scr {
+    display: flex;
+    flex-wrap: nowrap;
+    float: right;
+    padding-top: 29px;
+    color: #fa5772;
+}
+
+nav {
+    text-transform: uppercase;
+}
+
+.large-scr > div {
+    margin-left: 30px;
+    position: relative;
+}
+
+.dropdown-toggle {
+    color: #fa5772;
+}
+
+.fav-icon {
+    color: #fa5772;
+}
+
+.shop-register {
+    margin-top: 45px;
+    background-image: url('/img/home-vendor-mm.webp');
+    height: 432px;
+    background-size: cover;
+}
+
+.vendor-title {
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.shop-caption {
+    width: 616px;
+    background-color: #fff;
+}
+
+.get-started {
+    background-color: #fa5772;
+}
+
+/* login-form */
+.login-form {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.login {
+    background-color: #fa5772;
+    color: #fff;
+}
+
+.reg-link {
+    color: #fa5772;
+    text-decoration: none;
+}
+
+/* register-form */
+.register-form {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* shop register from */
+.shop-register-form {
+    margin: 0 auto;
+}
+
+.partner {
+    padding-top: 36%;
+    font-size: 18px;
+}
+
+.restaurant-register {
+    background-image: url('/img/shop-register.jpg');
+    background-size: cover;
+}
+
+.shop-register-btn{
+    background-color: #fa5772;
+}
+
+/* post-form */
+.post-form {
+    background-image: url('/img/shop.avif');
+    background-size: cover;
+}
+
+.post-create {
+    margin: 0 auto;
+}
+
+.create-post {
+    color: #fa5772;
+}
+
+.post-submit {
+    background-color: #fa5772;
+    font-size: 18px;
+}
+
+/* shop-list */
+.shop-list {
+    margin: 0 auto;
+}
+.vertical-icon {
+    top: 5px;
+    right: 26px;
+}
+
+/* shop detail */
+.slideshow-height {
+    height: 300px;
+}
+.shop-detail {
+    margin: 0 auto;
+}
+
+/* add menu btn */
+.add-menu-btn {
+    color: #fa5772;
+}
+
+/* menu-index */
+.descript {
+    font-size: 13px;
+}
+
+.menu-status {
+    font-size: 12px;
+}
+
+.price {
+    font-size: 14px;
+}
+
+.buy-menu {
+    right: -10px;
+    bottom: -6px;
+}
+
+.img-menu {
+    max-height: 68.94px;
+}
+
+.tax {
+    font-size: 14px;
+}
+.update-cart {
+    width: 37px;
+    background-color: transparent;
+    border: none;
+    color: #fa5772;
+}
+.checkout-btn {
+    background-color: #fa5772;
+}
+
+.shop-name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.slideshow-image {
+    height: 317px;
+    object-fit: cover;
+}
+
+.profile-edit {
+    background-color: #fa5772;
+    color: #fff;
+}
+
+@media (min-width:768px) and (max-width:1180px) {
+    .banner h1 {
+        font-size: 3.5rem;
+        padding-top: 16.146vw;
+        padding-bottom: 16.146vw;
+    }
+}
+
+@media only screen and (max-width: 767.9px) {
+    .logo {
+        font-size: 5.333vw;
+        padding: 2.667vw 0;
+    }
+    .large-scr {
+        padding-top: 7.2vw;
+    }
+    .banner h1 {
+        font-size: 2rem;
+        padding-top: 21.333vw;
+        padding-bottom: 21.333vw;
+        padding-left: 7.2vw;
+    }
+    .slideshow-image {
+        height: 76.533vw;
+    }
+}
